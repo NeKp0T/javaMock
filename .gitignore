@@ -1,0 +1,9 @@
+.vscode
+.idea
+out
+target
+.classpath
+.project
+.settings
+bin
+.gradle
