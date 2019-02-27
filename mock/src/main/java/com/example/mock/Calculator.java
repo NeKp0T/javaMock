@@ -28,12 +28,16 @@ public class Calculator {
             switch (operationSymbol) {
                 case '+':
                     values.push(value + lastValue);
+                    break;
                 case '-':
                     values.push(value - lastValue);
+                    break;
                 case '*':
                     values.push(value * lastValue);
+                    break;
                 case '/':
                     values.push(value / lastValue);
+                    break;
             }
         }
         if (values.size() != 1) {
